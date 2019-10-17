@@ -8,7 +8,7 @@ class App extends Component {
 			{
 				id: 1,
 				title: 'Take out the trash',
-				completed: false
+				completed: true
 			},
 			{
 				id: 2,
@@ -24,7 +24,6 @@ class App extends Component {
 	};
 
 	render() {
-		console.log(this.state.todos);
 		return (
 			<div className='App'>
 				<Todos todos={this.state.todos} />
