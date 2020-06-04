@@ -12,7 +12,6 @@
 - axios
 - React-router-dom
 - PropTypes
-- Prop drilling
 - Restful API (jsonplaceholder)
 
 ### Snapshots
